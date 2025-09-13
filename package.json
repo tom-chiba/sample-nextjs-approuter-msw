@@ -11,7 +11,8 @@
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "typecheck": "tsc --noEmit",
-    "cspell": "cspell '**/*.{ts,tsx,js,jsx,json,md}'"
+    "cspell": "cspell '**/*.{ts,tsx,js,jsx,json,md}'",
+    "gemini": "gemini"
   },
   "dependencies": {
     "next": "15.5.3",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@google/gemini-cli": "^0.4.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
