@@ -12,7 +12,7 @@
     "prettier:check": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "typecheck": "tsc --noEmit",
-    "cspell": "cspell '**/*.{ts,tsx,js,jsx,json,md}'",
+    "test:e2e": "playwright test",
     "gemini": "gemini"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@google/gemini-cli": "^0.4.1",
+    "@playwright/test": "^1.55.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
