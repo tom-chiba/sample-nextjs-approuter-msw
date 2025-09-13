@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import EnableMockingWrapper from "./components/EnableMockingWrapper";
+import MswProvider from "./components/MswProvider";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <EnableMockingWrapper>{children}</EnableMockingWrapper>
+        <MswProvider>{children}</MswProvider>
       </body>
     </html>
   );

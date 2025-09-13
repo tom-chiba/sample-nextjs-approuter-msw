@@ -11,7 +11,7 @@ async function enableMocking() {
   return worker.start();
 }
 
-export default function EnableMockingWrapper({
+export default function MswProvider({
   children,
 }: Readonly<{
   children: React.ReactNode;
